@@ -63,7 +63,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Welcome to BELTAH-MD pairing Page
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʙᴇʟᴛᴀʜ-ᴍᴅ ᴘᴀɪʀɪɴɢ ᴘᴀɢᴇ.
          
 
 ɴow ᴇɴтᴇʀ ʏouʀ ɴuмʙᴇʀ wιтнouт ᴘʟus "+"   sιԍɴ 
@@ -81,7 +81,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
             console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +254737681758")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo BELTAH-MD ᴘᴀιʀ ᴘᴀԍᴇ.
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʙᴇʟᴛᴀʜ-ᴍᴅ ᴘᴀɪʀɪɴɢ ᴘᴀɢᴇ. 
 
 ɴow ᴇɴтᴇʀ ʏouʀ ɴuмʙᴇʀ wιтнouт ᴘʟus   +   sιԍɴ 
 
@@ -104,18 +104,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
             await delay(1000 * 10)
             await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🪩ᴛʜᴇ ᴘʀɪɴᴄᴇ ʙᴏᴛ ᴄᴏᴅᴇ ʜᴀs ʙᴇᴇɴ ᴘᴀɪʀᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ✅
 
-💌𝙱𝙴𝙻𝚃𝙰𝙷-𝙼𝙳 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢
+ʙᴇʟᴛᴀʜ-ᴍᴅ sᴇssɪᴏɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ
 
 
 🪩ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ғᴏʀ ᴍᴏʀᴇ ϙᴜᴇʀʏ🪩
-https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP
+https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI 
 
 
 ❇️Cʜᴀɴɴᴇʟ ʟɪɴᴋ❇️
 https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F
 
 
-🛡️TᕼE-ᑭᖇIᑎᑕE-ᗷOT-ᗰᗪ🛡️` });
+𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇 𝐓𝐄𝐀𝐌 🙂‍↕🙂‍↔` });
             let sessionXeon = fs.readFileSync('./sessions/creds.json');
             let c = Buffer.from(sessionXeon).toString('base64');
             await delay(1000 * 2) 
