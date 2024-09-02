@@ -63,14 +63,14 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo ᴘʀιɴcᴇ ʙoт ᴘᴀιʀ ᴘᴀԍᴇ😍
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Welcome to BELTAH-MD pairing Page
          
 
 ɴow ᴇɴтᴇʀ ʏouʀ ɴuмʙᴇʀ wιтнouт ᴘʟus "+"   sιԍɴ 
 
 
 
-ᴇxᴀмᴘʟᴇ:  923040000427
+ᴇxᴀмᴘʟᴇ:  254114141192
 
 
 
@@ -79,13 +79,13 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +923042205427")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +254737681758")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo ᴘʀιɴcᴇ ʙoт ᴘᴀιʀ ᴘᴀԍᴇ.
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo BELTAH-MD ᴘᴀιʀ ᴘᴀԍᴇ.
 
 ɴow ᴇɴтᴇʀ ʏouʀ ɴuмʙᴇʀ wιтнouт ᴘʟus   +   sιԍɴ 
 
-ᴇxᴀмᴘʟᴇ:  923040000000`)))
+ᴇxᴀмᴘʟᴇ:  254114141192`)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -104,8 +104,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
             await delay(1000 * 10)
             await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🪩ᴛʜᴇ ᴘʀɪɴᴄᴇ ʙᴏᴛ ᴄᴏᴅᴇ ʜᴀs ʙᴇᴇɴ ᴘᴀɪʀᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ✅
 
-💌ɢɪᴠᴇ ᴀ sᴛᴀʀ ᴛᴏ ᴍʏ ʀᴇᴘᴏ ғᴏʀ ᴄᴏᴜʀᴀɢᴇ ✨
-https://github.com/PRINCE-GDS/THE-PRINCE-BOT
+💌𝙱𝙴𝙻𝚃𝙰𝙷-𝙼𝙳 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍 𝚜𝚞𝚌𝚌𝚎𝚜𝚜𝚏𝚞𝚕𝚕𝚢
 
 
 🪩ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ғᴏʀ ᴍᴏʀᴇ ϙᴜᴇʀʏ🪩
@@ -113,7 +112,7 @@ https://chat.whatsapp.com/Jo5bmHMAlZpEIp75mKbwxP
 
 
 ❇️Cʜᴀɴɴᴇʟ ʟɪɴᴋ❇️
-https://whatsapp.com/channel/0029VaGR6Ab7IUYPsbvSEa33
+https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F
 
 
 🛡️TᕼE-ᑭᖇIᑎᑕE-ᗷOT-ᗰᗪ🛡️` });
